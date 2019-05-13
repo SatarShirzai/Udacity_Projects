@@ -1,0 +1,407 @@
+ *,
+ *:before,
+ *:after {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   text-decoration: none;
+ }
+
+ /* ============================================== */
+ /* Style Guide */
+ /* ============================================== */
+
+ :root {
+   --primary-background: rgb(65, 86, 182);
+   --secondary-background: #F6F6F9;
+   --primary-font: rgb(15, 121, 242);
+   --secondary-font: #05F283;
+   --paragraph-family: Arial, Helvetica, sans-serif;
+ }
+
+ hr {
+   width: 340px;
+   height: 5px;
+   background-color: var(--primary-font);
+   border: none;
+   margin: 1.5em auto;
+ }
+
+ #life h3,
+ h4 {
+   font-size: 2em;
+   font-style: italic;
+   font-weight: 700;
+   color: var(--primary-font);
+ }
+
+ #life h3 {
+   text-align: center;
+   margin-top: 1.5em;
+   text-transform: uppercase;
+ }
+
+ h5 {
+   margin: 1.7rem 0;
+   padding: 0%;
+   font-style: italic;
+   font-size: 1.2rem;
+   text-align: center;
+ }
+
+ a {
+   color: var(--primary-background);
+ }
+
+ /* ============================================== */
+ /* header */
+ /* ============================================== */
+
+ .nav-container {
+   display: block;
+   margin: 0%;
+   position: relative;
+   width: 100%;
+   height: 60px;
+   background-color: var(--secondary-background);
+   font-family: var(--paragraph-family);
+   font-size: 40px;
+ }
+
+ .nav-item {
+   display: block;
+   float: left;
+   padding-left: 2%;
+ }
+
+ html {
+   box-sizing: border-box;
+ }
+
+ nav {
+   background: #6179ff;
+   height: 70px;
+   z-index: 1;
+ }
+
+ nav #brand {
+   float: left;
+   display: block;
+   margin-left: 20px;
+   font-size: 50px;
+   line-height: 70px;
+   font-weight: bold;
+   padding-left: 7%;
+ }
+
+ nav #brand a {
+   color: #fff;
+   transition: all 0.3s ease-out;
+ }
+
+ nav #brand a:hover {
+   color: rgb(51, 76, 185);
+ }
+
+ nav .menu {
+   float: left;
+   left: 15%;
+   position: relative;
+ }
+
+ nav .menu li {
+   display: inline-block;
+   padding: 0px 30px;
+   cursor: pointer;
+   line-height: 70px;
+   position: relative;
+   transition: all 0.3s ease-out;
+ }
+
+ nav .menu li a {
+   color: #fff;
+ }
+
+ nav .menu li:hover {
+   background: rgb(51, 76, 185);
+ }
+
+ #toggle {
+   position: absolute;
+   right: 20px;
+   top: 14px;
+   z-index: 999;
+   width: 40px;
+   height: 40px;
+   cursor: pointer;
+   float: right;
+   transition: all 0.3s ease-out;
+   opacity: 0;
+ }
+
+ #toggle .span {
+   height: 7px;
+   background: #333;
+   margin: 5px auto;
+ }
+
+ #toggle.on #one {
+   transform: rotate(45deg) translateX(6px) translateY(6px);
+ }
+
+ #toggle.on #two {
+   opacity: 0;
+ }
+
+ #toggle.on #three {
+   transform: rotate(-45deg) translateX(10px) translateY(-12px);
+ }
+
+ #resize {
+   z-index: 1;
+   position: absolute;
+   top: 0px;
+   background: #ddd;
+   width: 100%;
+   height: 100%;
+   visibility: hidden;
+   opacity: 0;
+   transition: all 0.3s ease-out;
+   display: table;
+ }
+
+ #resize .menu {
+   height: 50px;
+   display: table-cell;
+   vertical-align: middle;
+ }
+
+ #resize .menu li {
+   display: block;
+   text-align: center;
+   padding: 20px 0;
+   text-align: center;
+   font-size: 50px;
+   min-height: 50px;
+   font-weight: bold;
+   cursor: pointer;
+   transition: all 0.3s ease-out;
+ }
+
+ #resize .menu li:hover {
+   background: #212121;
+ }
+
+ #resize .menu li:hover a {
+   color: #fff;
+   transition: all 0.3s ease-out;
+ }
+
+ #resize .menu li a {
+   color: #212121;
+ }
+
+ #resize.active {
+   visibility: visible;
+   opacity: 0.99;
+ }
+
+ /* ============================================== */
+ /* hero */
+ /* ============================================== */
+
+ #hero {
+   height: 93vh;
+   background: linear-gradient(to bottom, rgba(35, 76, 138, 0.37) 0, rgba(35, 76, 138, 0.37) 100%), url(../image/hero.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+   background-size: cover;
+ }
+
+ .hero-div {
+   text-align: center;
+   color: var(--secondary-background);
+   padding-top: 15%;
+   font-size: 51px;
+   text-transform: uppercase;
+ }
+
+ .l-color {
+   color: var(--primary-background);
+   font-size: 61px;
+ }
+
+ .welcome-font {
+   margin: 0%;
+   font-size: 40px;
+   line-break: auto;
+   font-style: italic;
+   color: antiquewhite;
+ }
+
+ /* ============================================== */
+ /* about */
+ /* ============================================== */
+
+ #about {
+   height: 500px;
+   background-color: var(--secondary-background);
+   text-align: center;
+ }
+
+ .about-container {
+   padding-top: 190px;
+   color: var(--primary-font);
+ }
+
+ .about-container p {
+   padding-top: 30px;
+   font-family: var(--paragraph-family);
+ }
+
+ /* ============================================== */
+ /* life */
+ /* ============================================== */
+ #life-container {
+   display: flex;
+   flex-wrap: wrap;
+   width: 90%;
+   margin: auto;
+   justify-content: space-around;
+ }
+
+
+ .life {
+   display: flex;
+   flex-direction: column;
+   background-color: var(--primary-background);
+   margin: 0 40px 40px 0;
+   width: 300px;
+ }
+
+ .life img {
+   width: 100%;
+   height: 170px;
+ }
+
+ .life-info h4,
+ .life-info p {
+   padding: 0 10% 5% 10%;
+   line-height: 1.5;
+   color: #ffffff;
+ }
+
+ .life-info p {
+   font-family: var(--paragraph-family);
+ }
+
+ /* ============================================== */
+ /* contact */
+ /* ============================================== */
+
+ #contact {
+   display: block;
+   margin: 0%;
+   padding: 0%;
+   position: relative;
+   height: 500px;
+   background-color: var(--secondary-background);
+
+ }
+
+ #contact h2 {
+   text-align: center;
+   padding: 190px 0 20px 0;
+   font-family: var(--paragraph-family);
+ }
+
+ .phone span,
+ .email span {
+   padding-left: 1rem;
+   padding-top: 0.2rem;
+   text-align: center;
+ }
+
+ /* ============================================== */
+ /* footer */
+ /* ============================================== */
+ .bg-light {
+   background-color: #f8f9fa !important;
+   padding-top: 3rem !important;
+   padding-bottom: 3rem !important;
+   text-align: center;
+ }
+
+
+ /* =======================    Media Query Maximum 450px  =======================*/
+
+ @media(max-width:450px) {
+
+   .hero-div {
+     margin: 0%;
+     padding: 0%;
+     font-size: 24px;
+     padding-top: 126px;
+   }
+
+   .welcome-font {
+     font-size: 15px;
+   }
+
+   .life {
+     margin-right: 0;
+   }
+ }
+
+ /* =======================    Media Query Maximum 880px  =======================*/
+ @media(max-width:880px) {
+
+
+   hr {
+     width: 250px
+   }
+
+   #toggle {
+     display: inline;
+     opacity: 1;
+   }
+
+   nav .menu {
+     display: none;
+   }
+
+   .hero-div {
+     height: 100%;
+   }
+
+
+
+   .contact-info-box {
+     margin: 0 0 0 5%;
+     display: flex;
+     font-style: oblique;
+     font-weight: bold;
+     color: var(--primary-background);
+     font-size: 15px;
+   }
+
+
+ }
+
+ /* =======================    Media Query Minimum 880px  =======================*/
+ @media (min-width: 880px) {
+
+   #resize {
+     display: none !important;
+   }
+
+   .contact-info-box {
+     display: flex;
+     font-size: 20px;
+     font-style: oblique;
+     font-weight: bold;
+     margin: 0.5% 0 0 25%;
+     color: var(--primary-background);
+   }
+ }
