@@ -220,7 +220,6 @@
  }
 
  .hero-div {
-   margin: 0%;
    text-align: center;
    padding-top: 230px;
    color: var(--secondary-background);
@@ -234,7 +233,6 @@
  }
 
  .welcome-font {
-   margin: 0%;
    font-size: 40px;
    line-break: auto;
    font-style: italic;
@@ -302,9 +300,6 @@
  /* ============================================== */
 
  #contact {
-   display: block;
-   margin: 0%;
-   padding: 0%;
    position: relative;
    height: 500px;
    background-color: var(--secondary-background);
