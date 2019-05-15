@@ -1,0 +1,29 @@
+hr {
+    width: 250px
+}
+
+#toggle {
+    display: inline;
+    opacity: 1;
+}
+
+nav .menu {
+    display: none;
+}
+
+#hero {
+    max-width: 100vh;
+    background: linear-gradient(to bottom, rgba(35, 76, 138, 0.37) 0, rgba(46, 104, 190, 0.37) 100%), url(../image/hero-small.jpg);
+    background-size: cover; 
+}
+
+
+
+.contact-info-box {
+    margin: 0 0 0 5%;
+    display: flex;
+    font-style: oblique;
+    font-weight: bold;
+    color: var(--primary-background);
+    font-size: 15px;
+}

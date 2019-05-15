@@ -212,7 +212,7 @@
 
  #hero {
    height: 93vh;
-   background: linear-gradient(to bottom, rgba(35, 76, 138, 0.37) 0, rgba(35, 76, 138, 0.37) 100%), url(../image/hero.jpg);
+   background: linear-gradient(to bottom, rgba(35, 76, 138, 0) 0, rgba(46, 104, 190, 0.37) 100%), url(../image/hero.jpg);
    background-position: center;
    background-repeat: no-repeat;
    background-attachment: scroll;
@@ -220,9 +220,10 @@
  }
 
  .hero-div {
+   margin: 0%;
    text-align: center;
+   padding-top: 230px;
    color: var(--secondary-background);
-   padding-top: 15%;
    font-size: 51px;
    text-transform: uppercase;
  }
@@ -331,62 +332,6 @@
    padding-top: 3rem !important;
    padding-bottom: 3rem !important;
    text-align: center;
- }
-
-
- /* =======================    Media Query Maximum 450px  =======================*/
-
- @media(max-width:450px) {
-
-   .hero-div {
-     margin: 0%;
-     padding: 0%;
-     font-size: 24px;
-     padding-top: 126px;
-   }
-
-   .welcome-font {
-     font-size: 15px;
-   }
-
-   .life {
-     margin-right: 0;
-   }
- }
-
- /* =======================    Media Query Maximum 880px  =======================*/
- @media(max-width:880px) {
-
-
-   hr {
-     width: 250px
-   }
-
-   #toggle {
-     display: inline;
-     opacity: 1;
-   }
-
-   nav .menu {
-     display: none;
-   }
-
-   .hero-div {
-     height: 100%;
-   }
-
-
-
-   .contact-info-box {
-     margin: 0 0 0 5%;
-     display: flex;
-     font-style: oblique;
-     font-weight: bold;
-     color: var(--primary-background);
-     font-size: 15px;
-   }
-
-
  }
 
  /* =======================    Media Query Minimum 880px  =======================*/
