@@ -17,7 +17,7 @@ A fun game for users to play! Focuses on DOM manipulation, variables and object-
 
 #### How To Run
 
-* Simply click the link [HERE](https://satar619.github.io/All-in-all/Udacity_Memory_Game/) and machcards!
+* Simply click the link [HERE](https://satar619.github.io/Udacity_Projects/Memory-Game) and machcards!
 
 ---
 ### Project Screenshot
