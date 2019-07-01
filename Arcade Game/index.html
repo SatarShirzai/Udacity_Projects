@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Effective JavaScript: Frogger</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1>Welcome to Classic Arcade Game</h1>
+    <!-- When player got 2000 point this will appear  -->
+    <div id="winningModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2><span> <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i></span>
+                    <span id="con">Congratulations!!!</span>
+                    <span><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i></span></h2>
+            </div>
+            <div class="modal-body">
+                <h3>Click to start a new game!</h3>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h3 class="score">Score:&emsp;<span id="points">000</span></h3>
+        <h3>
+            <span class="score">You need </span>
+            <span class="tow000">2000</span>
+            <span class="score">points to win!! <br>
+                Help your Avatar cross the road to the sea.</span>
+        </h3>
+        <h2 class="github">Check Out the Project on <a href="#">Github</a>
+        </h2>
+        <span class="fork">
+            <a href="https://github.com/satar619/Projects/fork">
+                <i class="fab fa-github"></i> Fork
+            </a>
+        </span>
+        <span class="fork">
+            <a href="https://github.com/satar619/Projects">
+                <i class="fab fa-github"></i> Project
+            </a>
+        </span>
+    </div>
+
+
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+</body>
+
+</html>
