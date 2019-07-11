@@ -75,7 +75,7 @@ $(function () {
         it('working toggle on click event', function () {
             // Calls the class of 'menu-icon-link' 
             $('.menu-icon-link').trigger('click');
-            expect($('body').hasClass('menu-hidden')).toBe(false);
+            expect($('body').hasClass('menu-hidden')).toBe(true);
             $('.menu-icon-link').trigger('click');
             expect($('body').hasClass('menu-hidden')).toBe(true);
         });
