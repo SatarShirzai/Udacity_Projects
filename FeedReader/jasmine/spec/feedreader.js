@@ -75,9 +75,9 @@ $(function () {
         it('working toggle on click event', function () {
             // Calls the class of 'menu-icon-link' 
             $('.menu-icon-link').trigger('click');
-            expect($('body').hasClass('menu-hidden')).toBe(true);
+            expect($('body').hasClass('menu-hidden')).toBe(false);
             $('.menu-icon-link').trigger('click');
-            expect($('body').hasClass('menu-hidden')).toBe(true);
+            expect($('body').hasClass('menu-hidden')).toBe(false);
         });
     });
 
