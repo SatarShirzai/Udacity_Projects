@@ -1,3 +1,10 @@
+import {
+  data
+} from 'data/data.js'
+
+
+/**
+
 // List of Cats name
 let cats = [
   'Exotic Shorthair',
@@ -79,3 +86,5 @@ for (let i = 0; i < cats.length; i++) {
   })(cat));
 
 }
+
+ */
