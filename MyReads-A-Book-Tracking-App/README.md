@@ -13,6 +13,8 @@ To run this application, you will need the following:
 
 Access the projects folder and run `npm install` from the command line to install the dependencies. Once installed run the command `npm start` to load application on local host 3000.
 
+### OR Just
+>Live GitHub Page - [MyReads](https://satar619.github.io/Udacity_Projects/MyReads-A-Book-Tracking-App/)
 ## How to use
 
 ### Choosing which shelf to send a book to
