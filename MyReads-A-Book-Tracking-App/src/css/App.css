@@ -7,6 +7,10 @@ body {
 body, .app {
   background: white;
 }
+a {
+  text-decoration: none;
+  color: #333;
+}
 
 /* main page */
 
@@ -174,4 +178,30 @@ body, .app {
   padding: 20px 10px 0;
   text-align: center;
   font-size: 0.8em;
+}
+/* Github, fork */
+.github {
+	margin: 0%;
+	background: linear-gradient(to right, #02ccba 0%, #aa7ecd 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-align: center;
+	margin-bottom: 0.5rem;
+}
+
+.fork {
+	background-color: #eee;
+	padding: 2px 5px 2px 5px;
+	color: #333;
+	text-shadow: 0 1px 0 #fff;
+	cursor: pointer;
+	border-radius: 3px;
+	margin-right: 2rem;
+}
+
+.fa-github {
+	color: rgba(0, 0, 0, 0.89);
+	width: 15px;
+	height: 14px;
+
 }

@@ -10,6 +10,16 @@ class HomePage extends Component {
         return <div className="list-books">
             <div className="list-books-title">
                 <h1>MyReads</h1>
+                <span className="fork">
+                    <a href="https://github.com/satar619/Udacity_Projects/fork" target="_blank">
+                        <i className="fab fa-github"></i> Fork
+                    </a>
+                </span>
+                <span className="fork">
+                    <a href="https://github.com/Satar619/Udacity_Projects/tree/master/MyReads-A-Book-Tracking-App" target="_blank">
+                        <i className="fab fa-github"></i> Github
+                    </a>
+                </span>
             </div>
             <div className="list-books-content">
                 <BookShelf updateShelf={this.props.updateShelf} shelf="Currently Reading" books={this.props.books.filter(book => book.shelf === 'currentlyReading')} />,
