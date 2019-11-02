@@ -12,7 +12,7 @@ To run this application, you will need the following:
 
 ## Installation
 
-Access the projects folder and run `npm install` from the command line to install the dependencies. Once installed run the command `npm start` to load application on local host [3000](http://localhost:3000/)
+Access the projects folder and run `npm install` from the command line to install the dependencies. Once installed run the command `npm start` to load application on  [local host 3000](http://localhost:3000/)
 
 --
 
@@ -33,7 +33,10 @@ To return to the main page you may use the back arrow in the input area at the t
 
 'Android', 'Art', 'Artificial Intelligence', 'Astronomy', 'Austen', 'Baseball', 'Basketball', 'Bhagat', 'Biography', 'Brief', 'Business', 'Camus', 'Cervantes', 'Christie', 'Classics', 'Comics', 'Cook', 'Cricket', 'Cycling', 'Desai', 'Design', 'Development', 'Digital Marketing', 'Drama', 'Drawing', 'Dumas', 'Education', 'Everything', 'Fantasy', 'Film', 'Finance', 'First', 'Fitness', 'Football', 'Future', 'Games', 'Gandhi', 'History', 'History', 'Homer', 'Horror', 'Hugo', 'Ibsen', 'Journey', 'Kafka', 'King', 'Lahiri', 'Larsson', 'Learn', 'Literary Fiction', 'Make', 'Manage', 'Marquez', 'Money', 'Mystery', 'Negotiate', 'Painting', 'Philosophy', 'Photography', 'Poetry', 'Production', 'Program Javascript', 'Programming', 'React', 'Redux', 'River', 'Robotics', 'Rowling', 'Satire', 'Science Fiction', 'Shakespeare', 'Singh', 'Swimming', 'Tale', 'Thrun', 'Time', 'Tolstoy', 'Travel', 'Ultimate', 'Virtual Reality', 'Web Development', 'iOS'
 
-### Screenshot of the main page and search page
+## Screenshot of the main page and search page
 
+### Main page
 ![Main page](public/reads.png)
+
+### Search page
 ![Search page](public/react.png)
