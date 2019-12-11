@@ -11,12 +11,12 @@ class HomePage extends Component {
             <div className="list-books-title">
                 <h1>MyReads</h1>
                 <span className="fork">
-                    <a href="https://github.com/satar619/Udacity_Projects/fork" target="_blank">
+                    <a href="https://github.com/SatarShirzai/Udacity_Projects/fork" target="_blank">
                         <i className="fab fa-github"></i> Fork
                     </a>
                 </span>
                 <span className="fork">
-                    <a href="https://github.com/Satar619/Udacity_Projects/tree/master/MyReads-A-Book-Tracking-App" target="_blank">
+                    <a href="https://github.com/SatarShirzai/Udacity_Projects/tree/master/MyReads-A-Book-Tracking-App" target="_blank">
                         <i className="fab fa-github"></i> Github
                     </a>
                 </span>

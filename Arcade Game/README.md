@@ -15,7 +15,7 @@ A fun game for users to play! Focuses on JavaScript, HTML5 Canvas, variables and
 
 #### How To Run
 
-* Simply click the link [HERE](https://satar619.github.io/Udacity_Projects/Arcade%20Game/) and Go!
+* Simply click the link [HERE](https://SatarShirzai.github.io/Udacity_Projects/Arcade%20Game/) and Go!
 
 ---
 ### Project Screenshot
@@ -29,7 +29,7 @@ A fun game for users to play! Focuses on JavaScript, HTML5 Canvas, variables and
 #### junior Software Developer
 
 ### Visit me at:
-* [satar619.github.io](https://satar619.github.io)
+* [SatarShirzai.github.io](https://SatarShirzai.github.io)
 * [linkedin.com/in/satarsy/](linkedin.com/in/satarsy)
 
 ------

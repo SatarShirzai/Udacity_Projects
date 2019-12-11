@@ -20,7 +20,7 @@ I was provided with the code for a restaurant reviews website. This code had a l
 
 To run the project, download or clone the repository in your computer:
 
-`$ git clone https://github.com/Satar619/Udacity_Projects.git`
+`$ git clone https://github.com/SatarShirzai/Udacity_Projects.git`
 
 and follow the instructions below:
 
@@ -43,7 +43,7 @@ and follow the instructions below:
 #### junior Software Developer
 
 ### Visit me at:
-* [satar619.github.io](https://satar619.github.io)
+* [SatarShirzai.github.io](https://SatarShirzai.github.io)
 * [linkedin.com/in/satarsy/](linkedin.com/in/satarsy)
 
 ------
