@@ -12,10 +12,10 @@ To run this application, you will need the following:
 
 ## Installation
 
-[1] First of all You need to [download](https://github.com/SatarShirzai/Udacity_Projects/archive/master.zip)or [Clone](https://github.com/SatarShirzai/Udacity_Projects.git) the repo and:,
-[2] Access the projects folder,
-[3] run `npm install` from the command line to install the dependencies.,
-[4] Once installed run the command `npm start` to load application on  [local host 3000](http://localhost:3000/)
+* [1] First of all You need to [download](https://github.com/SatarShirzai/Udacity_Projects/archive/master.zip)or [Clone](https://github.com/SatarShirzai/Udacity_Projects.git) the repo and:,
+* [2] Access the projects folder,
+* [3] run `npm install` from the command line to install the dependencies.,
+* [4] Once installed run the command `npm start` to load application on  [local host 3000](http://localhost:3000/)
 
 
 ## Screenshot of the main page and search page
