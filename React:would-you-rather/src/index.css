@@ -1,0 +1,15 @@
+body {
+  margin: auto !important;
+  width: 1000px !important;
+  padding: 0% !important;
+  font-family: sans-serif !important;
+}
+
+
+:root {
+  --primary-background: #EFDEC4;
+  --secondary-background: #F8AB51;
+  --secondary-color: #EE8927;
+  --primary-font: #151829;
+  --secondary-font: #080705;
+}
