@@ -26,7 +26,7 @@ You need a simulator or a mobile device to run this app. The easiest way is to i
 
 <img src="assets/images/deckHome.png" alt="Deck Home" width="200"/>
 
-![Will show 2 default Decks](assets/images/deckHome.png | width=100)
+![Will show 2 default Decks](https://raw.githubusercontent.com/SatarShirzai/Udacity_Projects/master/React-Native-Mobile-Flashcards/assets/images/deckHome.jpg | width=100)
 
 - New Deck
 <img src="assets/images/.png" alt="screen shots" width="200"/>
