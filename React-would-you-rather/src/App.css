@@ -1,0 +1,20 @@
+.navbar{
+  margin-bottom: 2rem !important;
+}
+.nav-link.active, button:not(.disabled) {
+  background: var(--secondary-background) !important;
+  color: var(--primary-font) !important;
+}
+.nav-tabs .nav-link{
+  cursor: pointer !important;
+  color: #007bff;
+}
+button{
+  background-color: var(--secondary-background) !important;
+}
+.navbar .nav-link.active {
+  border-radius: 5px !important;
+}
+span {
+  padding: 0 0.2em;
+}
