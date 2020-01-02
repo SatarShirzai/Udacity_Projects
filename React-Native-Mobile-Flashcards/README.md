@@ -25,7 +25,8 @@ You need a simulator or a mobile device to run this app. The easiest way is to i
 - Decks (Initial view of the app)
 
 <img src="assets/images/deckHome.png" alt="Deck Home" width="200"/>
-Will show 2 default Decks
+
+![Will show 2 default Decks](assets/images/deckHome.png | width=100)
 
 - New Deck
 <img src="assets/images/.png" alt="screen shots" width="200"/>
