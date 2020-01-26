@@ -5,7 +5,7 @@ Allow you to set up your flashcards and keep learning everyday
 In your Terminal(mac)/Command Line(Windows), enter the commands below
 
 ```
-$ git clone https://github.com.git
+$ git clone https://github.com/SatarShirzai/Udacity_Projects.git
 
 $ cd React-Native-Mobile-Flashcards
 
